@@ -1,164 +1,245 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./index.css"/> 
+    <link rel="stylesheet" href="./index.css" />
     <title>Curriculam Connector</title>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/24a83a81ab.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
 
-            <!--First Main Page-->
-            <div  id="sectionOne">
-                <div class="first-background">
-                    <div class="text-container">
-                         <h1 class="title-head">Curriculam Connector</h1>
-                         <p class="subtitle">A Roadmap to your future...</p>
-                         <button class="button-one" onclick="display('sectionSecond')">Get Started</button>
-                    </div>
-                    <img src="https://res.cloudinary.com/ddargmdbm/image/upload/v1694955376/sbhqxypicc9xojootesw.jpg" class="image-banner"/>
-                </div>
+    <!--First Main Page-->
+    <div id="sectionOne">
+        <div class="first-background">
+            <div class="text-container">
+                <h1 class="title-head">Curriculam Connector</h1>
+                <p class="subtitle">A Roadmap to your future...</p>
+                <button class="button-one" onclick="display('sectionSecond')">Get Started</button>
             </div>
-            
-    
-            <!--Second Page-->
-            <div  id="sectionSecond">
-                <div class="second-page-background">
-                    <h1 class="second-page-head">Courses</h1>
-                    <button class="second-page-button" onclick="display('sectionInter')">Intermediate  <i class="fas fa-book-open"></i></button>
-                    <button class="second-page-button" onclick="display('sectionBtech')">B.tech <i class="fa-solid fa-graduation-cap"></i></button>
-                    <button class="second-page-button" onclick="display('sectionDegree')">Degree <i class="fa-solid fa-user-graduate"></i></button>
-                    <button class="second-page-button" onclick="display('sectionMbbs')">MBBS <i class="fa-solid fa-stethoscope"></i></button>
-                    <button class="second-page-button" onclick="display('sectionHotel')">Hotel Management <i class="fa-solid fa-bell-concierge"></i></button>
-                    <button class="button-one" onclick="display('sectionOne')">Home</button>
-                </div>
-            </div>
-            
+            <img src="https://res.cloudinary.com/ddargmdbm/image/upload/v1694955376/sbhqxypicc9xojootesw.jpg" class="image-banner" />
+        </div>
+    </div>
 
-            <!--Inter Page-->
-            <div id="sectionInter">
-                <div class="third-page-background">
-                    <div class="third-page-content">
-                        <h1 class="third-page-course">About Intermediate</h1>
-                        <div class="third-page-card">
-                            <p class="third-page-para">
-                                In India, intermediate education refers to the two-year senior secondary education that is typically completed after 10 years of basic education. It is also known as the 10+2 system, as it consists of two years of study beyond the 10th grade. Intermediate education in India is offered by a range of institutions, including schools affiliated with state boards, central boards, and international boards. The curriculum typically includes a mix of compulsory and elective subjects, and students can choose from a range of streams, including science, commerce, and humanities. Successful completion of intermediate education is a prerequisite for admission to many undergraduate programs in India.
-                            </p>
-                            <h1 class="third-page-course">Courses offered:</h1>
-                            <h1 class="third-page-course-head">MPC</h1>
-                            <p class="third-page-para-course">In intermediate education, MPC typically refers to a specific academic stream or combination of subjects: Mathematics, Physics, and Chemistry. This course is chosen by students with a strong interest in science and engineering fields, providing a solid foundation in these subjects and preparing them for various competitive exams and higher education opportunities in STEM disciplines.</p>
-                            <h1 class="third-page-course-head">BIPC</h1>
-                            <p class="third-page-para-course">In intermediate education, "biPC" typically refers to a course combination that includes Biology (B), Physics (P), and Chemistry (C). This combination is often chosen by students who aspire to pursue careers in medicine, pharmacy, or other science-related fields. It provides a strong foundation in the sciences and is a common choice for those with an interest in healthcare or life sciences.</p>
-                            <h1 class="third-page-course-head">HEC</h1>
-                            <p class="third-page-para-course">HEC, or History, Economics, and Civics, is a crucial component of intermediate education. It provides students with a comprehensive understanding of historical events, economic principles, and civic duties. This curriculum aims to foster informed citizens who grasp the socio-political and economic dynamics shaping society.</p>
-                            <h1 class="third-page-course-head">CEC</h1>
-                            <p class="third-page-para-course">CEC, which stands for Commerce, Economics, and Civics, is an intermediate education stream that focuses on subjects related to commerce and economics. Students who choose this stream typically study subjects like economics, business studies, accountancy, and civics, preparing them for careers in finance, business, or government sectors.</p>
-                        </div>
-                    </div>
-                    <button class="button-one" onclick="display('sectionSecond')">Back</button>
-                </div>
-            </div>
-            
-            <!--Btech Page-->
-            <div id="sectionBtech">
-                <div class="fourth-page-background">
-                    <div class="third-page-content">
-                        <h1 class="third-page-course">About B.Tech</h1>
-                        <div class="fourth-page-card">
-                            <p class="third-page-para">
-                                In India, a Bachelor of Technology (B.Tech) is an undergraduate degree program typically spanning four years. It is primarily focused on engineering and technology disciplines, providing students with a comprehensive understanding of scientific principles and technical skills. B.Tech programs cover various specializations such as computer science, mechanical engineering, electrical engineering, civil engineering, and more. The curriculum combines theoretical knowledge with practical applications, often involving internships and hands-on projects. Graduates with a B.Tech degree are well-prepared for careers in industries like IT, manufacturing, telecommunications, and research and development. It's a highly regarded qualification that opens doors to a wide range of opportunities in India's rapidly evolving technological landscape.
-                            </p>
-                            <h1 class="third-page-course">Courses offered:</h1>
-                            <h1 class="third-page-course-head">Information Technology (IT):</h1>
-                            <p class="third-page-para-course">Information Technology (IT) is a dynamic field encompassing the study, design, development, implementation, and management of computer systems, software applications, and networks. It focuses on utilizing technology to store, retrieve, transmit, and manipulate data for various purposes. IT professionals work with a wide range of technologies, from hardware components to software applications, and play a pivotal role in ensuring efficient and secure information flow within organizations. This field is crucial in today's digital age, influencing virtually every aspect of modern life, from business operations to communication and entertainment. IT specialists are in high demand, driving innovation and shaping the technological landscape globally.</p>
-                            <h1 class="third-page-course-head">Computer Science and Engineering (CSE):</h1>
-                            <p class="third-page-para-course">Computer Science and Engineering (CSE) is a B.Tech program that equips students with the knowledge and skills to design, develop, and manage computer systems and software applications. It covers a broad range of subjects, including programming, algorithms, data structures, and computer architecture. Specializations within CSE allow students to delve deeper into specific areas such as Artificial Intelligence, Data Science, Cybersecurity, or Cloud Computing.</p>
-                            <h1 class="third-page-course-head">Electrical Engineering (EE):</h1>
-                            <p class="third-page-para-course">Electrical Engineering (EE) is a branch of engineering that focuses on the study and application of electrical systems, electronics, and electromagnetism. It encompasses the design, development, and maintenance of electrical equipment, systems, and devices. Electrical engineers work with a wide range of technologies, from power generation and distribution to electronics, telecommunications, and computer systems. They design circuits, control systems, and integrate electrical components to create efficient and safe solutions. EE plays a crucial role in modern society, powering everything from household appliances to complex industrial systems, making it a diverse and dynamic field with applications in energy, communications, automation, and beyond.</p>
-                            <h1 class="third-page-course-head">Mechanical Engineering (ME):</h1>
-                            <p class="third-page-para-course">Mechanical engineering is a branch of engineering that focuses on the design, analysis, manufacturing, and maintenance of mechanical systems and devices. It encompasses a wide range of industries and applications, from automotive and aerospace to energy and manufacturing. Mechanical engineers apply principles of physics and mathematics to develop solutions for complex problems involving motion, heat transfer, and material properties. They design and optimize machines, tools, and systems, ensuring they are efficient, reliable, and safe. Mechanical engineering also plays a vital role in sustainability efforts, as engineers work on innovations in renewable energy, environmental conservation, and the reduction of resource consumption.</p>
-                        </div>
-                    </div>
-                    <button class="button-one" onclick="display('sectionSecond')">Back</button>
-                </div>
-            </div>
 
-            <!--Degree Page-->
-            <div id="sectionDegree">
-                <div class="fifth-page-background">
-                    <div class="third-page-content">
-                        <h1 class="third-page-course">About Degree</h1>
-                        <div class="fifth-page-card">
-                            <p class="third-page-para">
-                                A degree is a recognized academic qualification awarded upon successful completion of an undergraduate or postgraduate program. Undergraduate degrees in India include Bachelor's degrees, such as Bachelor of Arts (BA), Bachelor of Science (BSc), and Bachelor of Commerce (BCom), among others. Postgraduate degrees encompass Master's degrees like Master of Arts (MA), Master of Science (MSc), and Master of Business Administration (MBA), among others. These degrees are typically earned after a prescribed period of study, coursework, and examinations, and they play a crucial role in shaping a student's academic and professional future.
-                            </p>
-                            <h1 class="third-page-course">Courses offered:</h1>
-                            <h1 class="third-page-course-head">Bachelor of Arts (B.A.):</h1>
-                            <p class="third-page-para-course">A Bachelor of Arts (B.A.) is an undergraduate degree program typically spanning three to four years. It encompasses a wide range of subjects within the humanities and social sciences, such as literature, history, psychology, sociology, and more. B.A. programs emphasize critical thinking, communication skills, and a well-rounded education, making it a versatile degree choice for various career paths.</p>
-                            <h1 class="third-page-course-head">Bachelor of Science (B.Sc.):</h1>
-                            <p class="third-page-para-course">A Bachelor of Science (B.Sc.) is an undergraduate academic degree typically awarded in the sciences and related fields. It offers a foundation in scientific principles through coursework and often includes laboratory work. B.Sc. programs can cover diverse subjects such as biology, chemistry, physics, mathematics, and more, preparing students for careers in research, industry, education, or further specialized studies.</p>
-                            <h1 class="third-page-course-head">Bachelor of Commerce (B.Com):</h1>
-                            <p class="third-page-para-course">A Bachelor of Commerce (B.Com) is an undergraduate degree program that focuses on commerce and business-related subjects. It covers areas like accounting, finance, economics, marketing, and management. B.Com graduates are prepared for careers in finance, business, and commerce, making it a valuable degree for those interested in corporate and financial sectors.</p>
-                            <h1 class="third-page-course-head">Bachelor of Business Administration (BBA):</h1>
-                            <p class="third-page-para-course">A Bachelor of Business Administration (BBA) is an undergraduate degree program that provides a comprehensive foundation in business and management principles. It covers areas like marketing, finance, human resources, and operations management. BBA graduates are well-prepared for careers in various business sectors or can pursue further studies in business-related disciplines.</p>
-                        </div>
-                    </div>
-                    <button class="button-one" onclick="display('sectionSecond')">Back</button>
+    <!--Second Page-->
+    <div id="sectionSecond">
+        <div class="second-page-background">
+            <h1 class="second-page-head">Courses</h1>
+            <button class="second-page-button" onclick="display('sectionInter')">Intermediate  <i class="fas fa-book-open"></i></button>
+            <button class="second-page-button" onclick="display('sectionBtech')">B.tech <i class="fa-solid fa-graduation-cap"></i></button>
+            <button class="second-page-button" onclick="display('sectionDegree')">Degree <i class="fa-solid fa-user-graduate"></i></button>
+            <button class="second-page-button" onclick="display('sectionMbbs')">MBBS <i class="fa-solid fa-stethoscope"></i></button>
+            <button class="second-page-button" onclick="display('sectionHotel')">Hotel Management <i class="fa-solid fa-bell-concierge"></i></button>
+            <button class="button-one" onclick="display('sectionOne')">Home</button>
+        </div>
+    </div>
+
+
+    <!--Inter Page-->
+    <div id="sectionInter">
+        <div class="third-page-background">
+            <div class="third-page-content">
+                <h1 class="third-page-course">About Intermediate</h1>
+                <div class="third-page-card">
+                    <p class="third-page-para">
+                        In India, intermediate education refers to the two-year senior secondary education that is typically completed after 10 years of basic education. It is also known as the 10+2 system, as it consists of two years of study beyond the 10th grade. Intermediate
+                        education in India is offered by a range of institutions, including schools affiliated with state boards, central boards, and international boards. The curriculum typically includes a mix of compulsory and elective subjects, and
+                        students can choose from a range of streams, including science, commerce, and humanities. Successful completion of intermediate education is a prerequisite for admission to many undergraduate programs in India.
+                    </p>
+                    <h1 class="third-page-course">Courses offered:</h1>
+                    <h1 class="third-page-course-head">MPC</h1>
+                    <p class="third-page-para-course">In intermediate education, MPC typically refers to a specific academic stream or combination of subjects: Mathematics, Physics, and Chemistry. This course is chosen by students with a strong interest in science and engineering fields,
+                        providing a solid foundation in these subjects and preparing them for various competitive exams and higher education opportunities in STEM disciplines.</p>
+                    <h1 class="third-page-course-head">BIPC</h1>
+                    <p class="third-page-para-course">In intermediate education, "biPC" typically refers to a course combination that includes Biology (B), Physics (P), and Chemistry (C). This combination is often chosen by students who aspire to pursue careers in medicine, pharmacy,
+                        or other science-related fields. It provides a strong foundation in the sciences and is a common choice for those with an interest in healthcare or life sciences.</p>
+                    <h1 class="third-page-course-head">HEC</h1>
+                    <p class="third-page-para-course">HEC, or History, Economics, and Civics, is a crucial component of intermediate education. It provides students with a comprehensive understanding of historical events, economic principles, and civic duties. This curriculum aims to
+                        foster informed citizens who grasp the socio-political and economic dynamics shaping society.</p>
+                    <h1 class="third-page-course-head">CEC</h1>
+                    <p class="third-page-para-course">CEC, which stands for Commerce, Economics, and Civics, is an intermediate education stream that focuses on subjects related to commerce and economics. Students who choose this stream typically study subjects like economics, business
+                        studies, accountancy, and civics, preparing them for careers in finance, business, or government sectors.</p>
                 </div>
             </div>
+            <button class="button-one" onclick="display('sectionSecond')">Back</button>
+        </div>
+    </div>
 
-            <!--MBBS Page-->
-            <div id="sectionMbbs">
-                <div class="sixth-page-background">
-                    <div class="third-page-content">
-                        <h1 class="third-page-course">About MBBS</h1>
-                        <div class="sixth-page-card">
-                            <p class="third-page-para">
-                                MBBS, which stands for Bachelor of Medicine and Bachelor of Surgery, is a highly esteemed undergraduate medical degree pursued by individuals aspiring to become medical doctors. This program typically spans five and a half years and includes both theoretical coursework and clinical training. Students learn about anatomy, physiology, pharmacology, pathology, and various medical specialties. Upon completion, graduates are awarded the title of "Doctor" and are eligible to practice medicine. After MBBS, further specialization can be pursued through postgraduate studies. MBBS is a rigorous and demanding program, as it equips individuals with the knowledge and skills needed to diagnose, treat, and care for patients, making it a crucial step in the journey to becoming a medical professional.
-                            </p>
-                            <h1 class="third-page-course">Courses offered:</h1>
-                            <h1 class="third-page-course-head">Biochemistry:</h1>
-                            <p class="third-page-para-course">Biochemistry is the study of the chemical processes and substances that occur within living organisms. It explores the molecular mechanisms behind biological functions, such as metabolism, cell structure, and genetic information. Biochemists analyze the chemical composition of biological molecules like proteins, DNA, and enzymes, shedding light on fundamental biological processes and contributing to advancements in medicine and biotechnology.</p>
-                            <h1 class="third-page-course-head">Forensic Medicine:</h1>
-                            <p class="third-page-para-course">Forensic Medicine is a branch of medicine that deals with the application of medical knowledge to legal matters. It involves the examination of evidence related to criminal cases, such as autopsies to determine causes of death, analysis of injuries, and assessment of toxicology. Forensic physicians play a crucial role in assisting law enforcement agencies and the justice system in solving crimes and providing expert medical testimony in court proceedings.</p>
-                            <h1 class="third-page-course-head">Dermatology:</h1>
-                            <p class="third-page-para-course">Dermatology is a medical specialty focused on the diagnosis and treatment of skin, hair, and nail disorders. Dermatologists also address cosmetic concerns and perform procedures such as skin biopsies, surgeries, and laser treatments. They play a vital role in managing conditions like acne, eczema, skin cancer, and aging-related skin issues.</p>
-                            <h1 class="third-page-course-head">Anesthesiology:</h1>
-                            <p class="third-page-para-course">Anesthesiology is a medical specialty that focuses on pain management, sedation, and ensuring patient comfort during surgical procedures or medical interventions. Anesthesiologists administer anesthesia, monitor vital signs, and tailor anesthesia plans to individual patient needs. They play a critical role in maintaining patient safety and comfort throughout medical procedures.</p>
-                        </div>
-                    </div>
-                    <button class="button-one" onclick="display('sectionSecond')">Back</button>
+    <!--Btech Page-->
+    <div id="sectionBtech">
+        <div class="fourth-page-background">
+            <div class="third-page-content">
+                <h1 class="third-page-course">About B.Tech</h1>
+                <div class="fourth-page-card">
+                    <p class="third-page-para">
+                        In India, a Bachelor of Technology (B.Tech) is an undergraduate degree program typically spanning four years. It is primarily focused on engineering and technology disciplines, providing students with a comprehensive understanding of scientific principles
+                        and technical skills. B.Tech programs cover various specializations such as computer science, mechanical engineering, electrical engineering, civil engineering, and more. The curriculum combines theoretical knowledge with practical
+                        applications, often involving internships and hands-on projects. Graduates with a B.Tech degree are well-prepared for careers in industries like IT, manufacturing, telecommunications, and research and development. It's a highly
+                        regarded qualification that opens doors to a wide range of opportunities in India's rapidly evolving technological landscape.
+                    </p>
+                    <h1 class="third-page-course">Courses offered:</h1>
+                    <h1 class="third-page-course-head">Information Technology (IT):</h1>
+                    <p class="third-page-para-course">Information Technology (IT) is a dynamic field encompassing the study, design, development, implementation, and management of computer systems, software applications, and networks. It focuses on utilizing technology to store, retrieve,
+                        transmit, and manipulate data for various purposes. IT professionals work with a wide range of technologies, from hardware components to software applications, and play a pivotal role in ensuring efficient and secure information
+                        flow within organizations. This field is crucial in today's digital age, influencing virtually every aspect of modern life, from business operations to communication and entertainment. IT specialists are in high demand, driving
+                        innovation and shaping the technological landscape globally.</p>
+                    <h1 class="third-page-course-head">Computer Science and Engineering (CSE):</h1>
+                    <p class="third-page-para-course">Computer Science and Engineering (CSE) is a B.Tech program that equips students with the knowledge and skills to design, develop, and manage computer systems and software applications. It covers a broad range of subjects, including
+                        programming, algorithms, data structures, and computer architecture. Specializations within CSE allow students to delve deeper into specific areas such as Artificial Intelligence, Data Science, Cybersecurity, or Cloud Computing.</p>
+                    <h1 class="third-page-course-head">Electrical Engineering (EE):</h1>
+                    <p class="third-page-para-course">Electrical Engineering (EE) is a branch of engineering that focuses on the study and application of electrical systems, electronics, and electromagnetism. It encompasses the design, development, and maintenance of electrical equipment,
+                        systems, and devices. Electrical engineers work with a wide range of technologies, from power generation and distribution to electronics, telecommunications, and computer systems. They design circuits, control systems, and integrate
+                        electrical components to create efficient and safe solutions. EE plays a crucial role in modern society, powering everything from household appliances to complex industrial systems, making it a diverse and dynamic field with applications
+                        in energy, communications, automation, and beyond.</p>
+                    <h1 class="third-page-course-head">Mechanical Engineering (ME):</h1>
+                    <p class="third-page-para-course">Mechanical engineering is a branch of engineering that focuses on the design, analysis, manufacturing, and maintenance of mechanical systems and devices. It encompasses a wide range of industries and applications, from automotive and
+                        aerospace to energy and manufacturing. Mechanical engineers apply principles of physics and mathematics to develop solutions for complex problems involving motion, heat transfer, and material properties. They design and optimize
+                        machines, tools, and systems, ensuring they are efficient, reliable, and safe. Mechanical engineering also plays a vital role in sustainability efforts, as engineers work on innovations in renewable energy, environmental conservation,
+                        and the reduction of resource consumption.</p>
                 </div>
             </div>
+            <button class="button-one" onclick="display('sectionSecond')">Back</button>
+        </div>
+    </div>
 
-            <!--Hotel Management Page-->
-            <div id="sectionHotel">
-                <div class="seventh-page-background">
-                    <div class="third-page-content">
-                        <h1 class="third-page-course">About Hotel Management</h1>
-                        <div class="sixth-page-card">
-                            <p class="third-page-para">
-                                Hotel Management courses in India are designed to train students in various aspects of the hospitality industry. These programs cover hotel operations, food and beverage management, front office management, and housekeeping. Students also learn about customer service, culinary arts, and event management. Practical training, internships, and exposure to real-world hospitality scenarios are integral components. Graduates can pursue careers in hotels, resorts, restaurants, event management companies, and cruise lines. With India's growing tourism and hospitality sectors, hotel management courses provide opportunities for a dynamic and rewarding career in the service industry.
-                            </p>
-                            <h1 class="third-page-course">Courses offered:</h1>
-                            <h1 class="third-page-course-head">Diploma in Hotel Management:</h1>
-                            <p class="third-page-para-course">A Diploma in Hotel Management is a short-term program typically lasting 1-2 years. It provides foundational knowledge of hotel and hospitality operations, including customer service, front office, food and beverage management, and housekeeping. This diploma equips students with essential skills for entry-level positions in the hotel and tourism industry.</p>
-                            <h1 class="third-page-course-head">Bachelor of Hotel Management (BHM):</h1>
-                            <p class="third-page-para-course">A Bachelor of Hotel Management (BHM) is an undergraduate degree program that provides in-depth training in hotel and hospitality management. Students learn about hotel operations, food and beverage management, customer service, and event planning. BHM graduates are prepared for careers in hotels, resorts, restaurants, and the broader hospitality industry.</p>
-                            <h1 class="third-page-course-head">Master of Hotel Management (MHM): </h1>
-                            <p class="third-page-para-course">The Master of Hotel Management (MHM) is a postgraduate program that offers an advanced understanding of hotel and hospitality management. It covers strategic management, marketing, financial analysis, and leadership in the context of the hospitality industry. MHM graduates are equipped to take on senior roles in hotels, resorts, and related sectors.</p>
-                            <h1 class="third-page-course-head">Bachelor of Science (B.Sc.) in Hotel Management:</h1>
-                            <p class="third-page-para-course">A Bachelor of Science (B.Sc.) in Hotel Management is an undergraduate program that combines scientific principles with hospitality management. Students learn about hotel operations, food service, and guest relations while also gaining a foundation in areas like chemistry and nutrition. This degree prepares individuals for careers in the hotel and hospitality industry.</p>
-                        </div>
-                    </div>
-                    <button class="button-one" onclick="display('sectionSecond')">Back</button>
+    <!--Degree Page-->
+    <div id="sectionDegree">
+        <div class="fifth-page-background">
+            <div class="third-page-content">
+                <h1 class="third-page-course">About Degree</h1>
+                <div class="fifth-page-card">
+                    <p class="third-page-para">
+                        A degree is a recognized academic qualification awarded upon successful completion of an undergraduate or postgraduate program. Undergraduate degrees in India include Bachelor's degrees, such as Bachelor of Arts (BA), Bachelor of Science (BSc), and Bachelor
+                        of Commerce (BCom), among others. Postgraduate degrees encompass Master's degrees like Master of Arts (MA), Master of Science (MSc), and Master of Business Administration (MBA), among others. These degrees are typically earned
+                        after a prescribed period of study, coursework, and examinations, and they play a crucial role in shaping a student's academic and professional future.
+                    </p>
+                    <h1 class="third-page-course">Courses offered:</h1>
+                    <h1 class="third-page-course-head">Bachelor of Arts (B.A.):</h1>
+                    <p class="third-page-para-course">A Bachelor of Arts (B.A.) is an undergraduate degree program typically spanning three to four years. It encompasses a wide range of subjects within the humanities and social sciences, such as literature, history, psychology, sociology,
+                        and more. B.A. programs emphasize critical thinking, communication skills, and a well-rounded education, making it a versatile degree choice for various career paths.</p>
+                    <h1 class="third-page-course-head">Bachelor of Science (B.Sc.):</h1>
+                    <p class="third-page-para-course">A Bachelor of Science (B.Sc.) is an undergraduate academic degree typically awarded in the sciences and related fields. It offers a foundation in scientific principles through coursework and often includes laboratory work. B.Sc. programs
+                        can cover diverse subjects such as biology, chemistry, physics, mathematics, and more, preparing students for careers in research, industry, education, or further specialized studies.</p>
+                    <h1 class="third-page-course-head">Bachelor of Commerce (B.Com):</h1>
+                    <p class="third-page-para-course">A Bachelor of Commerce (B.Com) is an undergraduate degree program that focuses on commerce and business-related subjects. It covers areas like accounting, finance, economics, marketing, and management. B.Com graduates are prepared
+                        for careers in finance, business, and commerce, making it a valuable degree for those interested in corporate and financial sectors.</p>
+                    <h1 class="third-page-course-head">Bachelor of Business Administration (BBA):</h1>
+                    <p class="third-page-para-course">A Bachelor of Business Administration (BBA) is an undergraduate degree program that provides a comprehensive foundation in business and management principles. It covers areas like marketing, finance, human resources, and operations
+                        management. BBA graduates are well-prepared for careers in various business sectors or can pursue further studies in business-related disciplines.</p>
                 </div>
             </div>
+            <button class="button-one" onclick="display('sectionSecond')">Back</button>
+        </div>
+    </div>
 
-    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+    <!--MBBS Page-->
+    <div id="sectionMbbs">
+        <div class="sixth-page-background">
+            <div class="third-page-content">
+                <h1 class="third-page-course">About MBBS</h1>
+                <div class="sixth-page-card">
+                    <p class="third-page-para">
+                        MBBS, which stands for Bachelor of Medicine and Bachelor of Surgery, is a highly esteemed undergraduate medical degree pursued by individuals aspiring to become medical doctors. This program typically spans five and a half years and includes both theoretical
+                        coursework and clinical training. Students learn about anatomy, physiology, pharmacology, pathology, and various medical specialties. Upon completion, graduates are awarded the title of "Doctor" and are eligible to practice medicine.
+                        After MBBS, further specialization can be pursued through postgraduate studies. MBBS is a rigorous and demanding program, as it equips individuals with the knowledge and skills needed to diagnose, treat, and care for patients,
+                        making it a crucial step in the journey to becoming a medical professional.
+                    </p>
+                    <h1 class="third-page-course">Courses offered:</h1>
+                    <h1 class="third-page-course-head">Biochemistry:</h1>
+                    <p class="third-page-para-course">Biochemistry is the study of the chemical processes and substances that occur within living organisms. It explores the molecular mechanisms behind biological functions, such as metabolism, cell structure, and genetic information. Biochemists
+                        analyze the chemical composition of biological molecules like proteins, DNA, and enzymes, shedding light on fundamental biological processes and contributing to advancements in medicine and biotechnology.</p>
+                    <h1 class="third-page-course-head">Forensic Medicine:</h1>
+                    <p class="third-page-para-course">Forensic Medicine is a branch of medicine that deals with the application of medical knowledge to legal matters. It involves the examination of evidence related to criminal cases, such as autopsies to determine causes of death, analysis
+                        of injuries, and assessment of toxicology. Forensic physicians play a crucial role in assisting law enforcement agencies and the justice system in solving crimes and providing expert medical testimony in court proceedings.</p>
+                    <h1 class="third-page-course-head">Dermatology:</h1>
+                    <p class="third-page-para-course">Dermatology is a medical specialty focused on the diagnosis and treatment of skin, hair, and nail disorders. Dermatologists also address cosmetic concerns and perform procedures such as skin biopsies, surgeries, and laser treatments.
+                        They play a vital role in managing conditions like acne, eczema, skin cancer, and aging-related skin issues.</p>
+                    <h1 class="third-page-course-head">Anesthesiology:</h1>
+                    <p class="third-page-para-course">Anesthesiology is a medical specialty that focuses on pain management, sedation, and ensuring patient comfort during surgical procedures or medical interventions. Anesthesiologists administer anesthesia, monitor vital signs, and tailor
+                        anesthesia plans to individual patient needs. They play a critical role in maintaining patient safety and comfort throughout medical procedures.</p>
+                </div>
+            </div>
+            <button class="button-one" onclick="display('sectionSecond')">Back</button>
+        </div>
+    </div>
+
+    <!--Hotel Management Page-->
+    <div id="sectionHotel">
+        <div class="seventh-page-background">
+            <div class="third-page-content">
+                <h1 class="third-page-course">About Hotel Management</h1>
+                <div class="sixth-page-card">
+                    <p class="third-page-para">
+                        Hotel Management courses in India are designed to train students in various aspects of the hospitality industry. These programs cover hotel operations, food and beverage management, front office management, and housekeeping. Students also learn about
+                        customer service, culinary arts, and event management. Practical training, internships, and exposure to real-world hospitality scenarios are integral components. Graduates can pursue careers in hotels, resorts, restaurants, event
+                        management companies, and cruise lines. With India's growing tourism and hospitality sectors, hotel management courses provide opportunities for a dynamic and rewarding career in the service industry.
+                    </p>
+                    <h1 class="third-page-course">Courses offered:</h1>
+                    <h1 class="third-page-course-head">Diploma in Hotel Management:</h1>
+                    <p class="third-page-para-course">A Diploma in Hotel Management is a short-term program typically lasting 1-2 years. It provides foundational knowledge of hotel and hospitality operations, including customer service, front office, food and beverage management, and
+                        housekeeping. This diploma equips students with essential skills for entry-level positions in the hotel and tourism industry.</p>
+                    <h1 class="third-page-course-head">Bachelor of Hotel Management (BHM):</h1>
+                    <p class="third-page-para-course">A Bachelor of Hotel Management (BHM) is an undergraduate degree program that provides in-depth training in hotel and hospitality management. Students learn about hotel operations, food and beverage management, customer service, and
+                        event planning. BHM graduates are prepared for careers in hotels, resorts, restaurants, and the broader hospitality industry.</p>
+                    <h1 class="third-page-course-head">Master of Hotel Management (MHM): </h1>
+                    <p class="third-page-para-course">The Master of Hotel Management (MHM) is a postgraduate program that offers an advanced understanding of hotel and hospitality management. It covers strategic management, marketing, financial analysis, and leadership in the context
+                        of the hospitality industry. MHM graduates are equipped to take on senior roles in hotels, resorts, and related sectors.</p>
+                    <h1 class="third-page-course-head">Bachelor of Science (B.Sc.) in Hotel Management:</h1>
+                    <p class="third-page-para-course">A Bachelor of Science (B.Sc.) in Hotel Management is an undergraduate program that combines scientific principles with hospitality management. Students learn about hotel operations, food service, and guest relations while also gaining
+                        a foundation in areas like chemistry and nutrition. This degree prepares individuals for careers in the hotel and hospitality industry.</p>
+                </div>
+            </div>
+            <button class="button-one" onclick="display('sectionSecond')">Back</button>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-col">
+            <h4>About</h4>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Overview</a></li>
+                <li><a href="#">Courses</a></li>
+
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h4>Top Courses</h4>
+            <ul>
+                <li><a href="https://en.m.wikipedia.org/wiki/Intermediate">Intermediate</a></li>
+                <li><a href="https://en.m.wikipedia.org/wiki/Bachelor_of_Technology">B-Tech</a></li>
+                <li><a href="https://en.m.wikipedia.org/wiki/Degree">Degree</a></li>
+                <li><a href="https://en.m.wikipedia.org/wiki/Bachelor_of_Medicine,_Bachelor_of_Surgery">MBBS</a></li>
+                <li><a href="https://en.m.wikipedia.org/wiki/Hotel_Management">Hotel Management</a></li>
+
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h4>contact-us</h4>
+            <ul>
+                <li><a href="#">N.Harish:+916301732912</a></li>
+                <li><a href="#">P.Saketh:+919390702881</a></li>
+                <li><a href="#">M.Prasanna:+918688789231</a></li>
+                <li><a href="#">V.Smarana Varshitha:+919392833454</a></li>
+
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h4>follow us</h4>
+            <div class="links">
+                <a href="https://www.linkedin.com/in/harish-nethi-770182274/"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100007215618703"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com/harishnethi1"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/thenethi1808/"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+
+        <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
 </body>
+
 </html>
