@@ -1,13 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
-
-
-*{
+ @import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+* {
     margin: 0px;
     box-sizing: border-box;
     font-family: 'Sans Serif';
 }
 
-.first-background{
+.first-background {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -19,21 +17,21 @@
     text-align: center;
 }
 
-.title-head{
+.title-head {
     text-align: center;
     font-family: 'Bree Serif';
     margin: 10px;
     font-size: 50px;
 }
 
-.subtitle{
+.subtitle {
     text-align: center;
     font-family: 'Caveat';
     font-size: 24px;
     margin-bottom: 10px;
 }
 
-.button-one{
+.button-one {
     background-color: #2628e0;
     color: white;
     border: 0px solid #2628e0;
@@ -45,39 +43,37 @@
     padding: 10px;
 }
 
-.image-banner{
+.image-banner {
     height: 350px;
     width: 400px;
     border: 0px solid #E4E5E6;
     border-radius: 10px;
 }
 
-
-@media screen and (max-width:576px){
-    .first-background{
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    background-image: linear-gradient(135deg, #e9defa 10%, #fbfcdb 100%);
-    background-size: cover;
-    height: 100vh;
-    width: 100vw;
-    margin: 0px;
-    text-align: center;
+@media screen and (max-width:576px) {
+    .first-background {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: linear-gradient(135deg, #e9defa 10%, #fbfcdb 100%);
+        background-size: cover;
+        height: 100vh;
+        width: 100vw;
+        margin: 0px;
+        text-align: center;
     }
-    .text-container{
+    .text-container {
         display: flex;
         flex-direction: column;
-        justify-content:center;
+        justify-content: center;
         align-items: center;
     }
-    .image-banner{
-       display:none ;
+    .image-banner {
+        display: none;
     }
 }
 
-
-.second-page-background{
+.second-page-background {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -88,14 +84,14 @@
     width: 100vw;
 }
 
-.second-page-head{
+.second-page-head {
     color: yellow;
     font-size: 50px;
     font-family: 'Bree Serif';
 }
 
-.second-page-button{
-    background-color:lightblue;
+.second-page-button {
+    background-color: lightblue;
     border: 2px solid lightblue;
     border-radius: 10px;
     padding: 10px;
@@ -110,14 +106,14 @@
     box-shadow: 10px 10px gray;
 }
 
-.second-page-back{
+.second-page-back {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-start;
 }
 
-.button-one{
+.button-one {
     background-color: #2628e0;
     color: white;
     border: 0px solid #2628e0;
@@ -128,9 +124,7 @@
     border-radius: 8px;
 }
 
-
-
-.third-page-background{
+.third-page-background {
     background-image: linear-gradient(135deg, #b92b27 10%, #1565C0 100%);
     background-size: cover;
     height: 100vh;
@@ -138,45 +132,44 @@
     overflow: auto;
 }
 
-.third-page-content{
+.third-page-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
 }
 
-.third-page-card{
+.third-page-card {
     background-color: gray;
     width: 100%;
-    max-width:1050px;
+    max-width: 1050px;
     border: 0px solid gray;
     border-radius: 10px;
     box-shadow: 10px 10px black;
     overflow: auto;
 }
 
-.third-page-para{
-   padding: 10px;
+.third-page-para {
+    padding: 10px;
     font-size: 24px;
 }
 
-.third-page-course{
+.third-page-course {
     padding: 10px;
 }
 
-.third-page-course-head{
+.third-page-course-head {
     padding: 10px;
     text-decoration: underline;
     font-family: 'Roboto';
 }
 
-.third-page-para-course{
+.third-page-para-course {
     font-size: 24px;
     padding: 10px;
 }
 
-.fourth-page-background{
+.fourth-page-background {
     background-image: linear-gradient(135deg, #FFD26F 10%, #3677FF 100%);
     background-size: cover;
     height: 100vh;
@@ -184,17 +177,17 @@
     overflow: auto;
 }
 
-.fourth-page-card{
+.fourth-page-card {
     background-color: rgb(202, 219, 225);
     width: 100%;
-    max-width:1050px;
+    max-width: 1050px;
     border: 0px solid gray;
     border-radius: 10px;
     box-shadow: 10px 10px black;
     overflow: auto;
 }
 
-.fifth-page-background{
+.fifth-page-background {
     background-image: linear-gradient(135deg, #603813 10%, #b29f94 100%);
     background-size: cover;
     height: 100vh;
@@ -202,17 +195,17 @@
     overflow: auto;
 }
 
-.fifth-page-card{
-    background-color:white;
+.fifth-page-card {
+    background-color: white;
     width: 100%;
-    max-width:1050px;
+    max-width: 1050px;
     border: 0px solid gray;
     border-radius: 10px;
     box-shadow: 10px 10px black;
     overflow: auto;
 }
 
-.sixth-page-background{
+.sixth-page-background {
     background-image: linear-gradient(135deg, #f5f7fa 10%, #c3cfe2 100%);
     background-size: cover;
     height: 100vh;
@@ -220,17 +213,17 @@
     overflow: auto;
 }
 
-.sixth-page-card{
-    background-color:white;
+.sixth-page-card {
+    background-color: white;
     width: 100%;
-    max-width:1050px;
+    max-width: 1050px;
     border: 0px solid gray;
     border-radius: 10px;
     box-shadow: 10px 10px black;
     overflow: auto;
 }
 
-.seventh-page-background{
+.seventh-page-background {
     background-image: linear-gradient(135deg, #1f4037 10%, #99f2c8 100%);
     background-size: cover;
     height: 100vh;
@@ -238,3 +231,105 @@
     overflow: auto;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    line-height: 1.2;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #bbbbbb;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: auto;
+    background-color: #2d2e33;
+    padding: 60px 10%;
+}
+
+ul {
+    list-style: none;
+}
+
+.footer-col {
+    width: 25%;
+}
+
+.footer-col h4 {
+    position: relative;
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 22px;
+    color: #f1bc0d;
+    text-transform: capitalize;
+}
+
+.footer-col h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    background-color: #27c0ac;
+    height: 2px;
+    width: 40px;
+}
+
+ul li:not(:last-child) {
+    margin-bottom: 8px;
+}
+
+ul li a {
+    display: block;
+    font-size: 19px;
+    text-transform: capitalize;
+    color: #bdb6b6;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+ul li a:hover {
+    color: white;
+    padding-left: 2px;
+}
+
+.links a {
+    display: inline-block;
+    height: 44px;
+    width: 44px;
+    color: white;
+    background-color: rgba(40, 130, 214, 0.8);
+    margin: 0 8px 8px 0;
+    text-align: center;
+    line-height: 44px;
+    border-radius: 50%;
+    transition: 0.4s;
+}
+
+.links a:hover {
+    color: #4d4f55;
+    background-color: white;
+}
+
+@media(max-width: 740px) {
+    .footer-col {
+        width: 50%;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .footer-col h4::before {
+        all: unset;
+    }
+}
+
+@media(max-width: 555px) {
+    .footer-col {
+        width: 100%;
+    }
+}
