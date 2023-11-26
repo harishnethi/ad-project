@@ -31,6 +31,14 @@
     margin-bottom: 10px;
 }
 
+.top_head {
+    text-align: start;
+    padding: auto;
+    margin: 30px;
+    border-radius: 18px;
+    padding: 10px;
+}
+
 .button-one {
     background-color: #2628e0;
     color: white;
@@ -128,6 +136,7 @@
     background-image: linear-gradient(135deg, #b92b27 10%, #1565C0 100%);
     background-size: cover;
     height: 100vh;
+    padding: auto;
     width: 100vw;
     overflow: auto;
 }
@@ -155,7 +164,7 @@
 }
 
 .third-page-course {
-    padding: 10px;
+    padding: 20px;
 }
 
 .third-page-course-head {
@@ -166,7 +175,7 @@
 
 .third-page-para-course {
     font-size: 24px;
-    padding: 10px;
+    padding: 30px;
 }
 
 .fourth-page-background {
@@ -332,4 +341,271 @@ ul li a:hover {
     .footer-col {
         width: 100%;
     }
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav {
+    width: 100%;
+    height: 60px;
+    line-height: 75px;
+    padding: 0px 100px;
+    position: fixed;
+    background-image: linear-gradient(#033747, #012733);
+}
+
+.nav1 {
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    padding: 0px 100px;
+    position: fixed;
+    background-image: linear-gradient(#033747, #012733);
+}
+
+.logo {
+    font-size: 50px;
+    font-weight: bold;
+    float: left;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+
+.logon {
+    font-size: 50px;
+    font-weight: bold;
+    float: left;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+
+.logoP {
+    font-size: 50px;
+    font-weight: bold;
+    float: left;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+
+nav ul {
+    float: right;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 0px 30px;
+    color: white;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    color: #ff8c69;
+    transition: all 0.4% ease 0s;
+}
+
+.mpc-page-background {
+    background-image: linear-gradient(135deg, #b92b27 10%, #1565C0 100%);
+    background-size: cover;
+    height: 100vh;
+    padding: auto;
+    width: 100vw;
+    overflow: auto;
+}
+
+.mpc-page-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mpc-page-card {
+    background-color: gray;
+    width: 100%;
+    max-width: 1050px;
+    border: 0px solid gray;
+    border-radius: 10px;
+    box-shadow: 10px 10px black;
+    overflow: auto;
+}
+
+.mpc-page-para {
+    padding: 10px;
+    font-size: 24px;
+}
+
+.mpc-page-course {
+    padding: 20px;
+    margin: 15px
+}
+
+.mpc-page-course-head {
+    padding: 10px;
+    text-decoration: underline;
+    font-family: 'Roboto';
+}
+
+.mpc-page-para-course {
+    font-size: 24px;
+    padding: 30px;
+}
+
+.bipc-page-background {
+    background-image: linear-gradient(135deg, #b92b27 10%, #1565C0 100%);
+    background-size: cover;
+    height: 100vh;
+    padding: auto;
+    width: 100vw;
+    overflow: auto;
+}
+
+.bipc-page-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bipc-page-card {
+    background-color: gray;
+    width: 100%;
+    max-width: 1050px;
+    border: 0px solid gray;
+    border-radius: 10px;
+    box-shadow: 10px 10px black;
+    overflow: auto;
+}
+
+.bipc-page-para {
+    padding: 10px;
+    font-size: 24px;
+}
+
+.bipc-page-course {
+    padding: 20px;
+    margin: 15px
+}
+
+.bipc-page-course-head {
+    padding: 10px;
+    text-decoration: underline;
+    font-family: 'Roboto';
+}
+
+.bipc-page-para-course {
+    font-size: 24px;
+    padding: 30px;
+}
+
+.hec-page-background {
+    background-image: linear-gradient(135deg, #b92b27 10%, #1565C0 100%);
+    background-size: cover;
+    height: 100vh;
+    padding: auto;
+    width: 100vw;
+    overflow: auto;
+}
+
+.hec-page-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hec-page-card {
+    background-color: gray;
+    width: 100%;
+    max-width: 1050px;
+    border: 0px solid gray;
+    border-radius: 10px;
+    box-shadow: 10px 10px black;
+    overflow: auto;
+}
+
+.hec-page-para {
+    padding: 10px;
+    font-size: 24px;
+}
+
+.hec-page-course {
+    padding: 20px;
+    margin: 15px
+}
+
+.hec-page-course-head {
+    padding: 10px;
+    text-decoration: underline;
+    font-family: 'Roboto';
+}
+
+.hec-page-para-course {
+    font-size: 24px;
+    padding: 30px;
+}
+
+.cec-page-background {
+    background-image: linear-gradient(135deg, #b92b27 10%, #1565C0 100%);
+    background-size: cover;
+    height: 100vh;
+    padding: auto;
+    width: 100vw;
+    overflow: auto;
+}
+
+.cec-page-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cec-page-card {
+    background-color: gray;
+    width: 100%;
+    max-width: 1050px;
+    border: 0px solid gray;
+    border-radius: 10px;
+    box-shadow: 10px 10px black;
+    overflow: auto;
+}
+
+.cec-page-para {
+    padding: 10px;
+    font-size: 24px;
+}
+
+.cec-page-course {
+    padding: 20px;
+    margin: 15px
+}
+
+.cec-page-course-head {
+    padding: 10px;
+    text-decoration: underline;
+    font-family: 'Roboto';
+}
+
+.cec-page-para-course {
+    font-size: 24px;
+    padding: 30px;
+}
+
+.size-degree {
+    font-size: 10px;
 }
