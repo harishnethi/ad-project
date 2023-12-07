@@ -1,4 +1,4 @@
- @import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
 * {
     margin: 0px;
     box-sizing: border-box;
@@ -52,8 +52,8 @@
 }
 
 .image-banner {
-    height: 350px;
-    width: 400px;
+    height: 550px;
+    width: 600px;
     border: 0px solid #E4E5E6;
     border-radius: 10px;
 }
@@ -161,10 +161,11 @@
 .third-page-para {
     padding: 10px;
     font-size: 24px;
+    text-align: justify;
 }
 
-.third-page-course {
-    padding: 20px;
+.third-page-course-head {
+    margin: 60px;
 }
 
 .third-page-course-head {
@@ -608,4 +609,369 @@ nav li a:hover {
 
 .size-degree {
     font-size: 10px;
+}
+
+.nav-button {
+    background-color: transparent;
+    border: 0px solid transparent;
+    cursor: pointer;
+    outline: none;
+    color: white;
+    font-size: 24px;
+    margin: 5px;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-items {
+    margin-top: 10px;
+}
+
+.slideInRight {
+    -webkit-animation-name: slideInRight;
+    animation-name: slideInRight;
+}
+
+@-webkit-keyframes slideInRight {
+    from {
+        -webkit-transform: translate3d(100%, 0, 0);
+        transform: translate3d(100%, 0, 0);
+        visibility: visible;
+    }
+    to {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+@keyframes slideInRight {
+    from {
+        -webkit-transform: translate3d(100%, 0, 0);
+        transform: translate3d(100%, 0, 0);
+        visibility: visible;
+    }
+    to {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+.slideInLeft {
+    -webkit-animation-name: slideInLeft;
+    animation-name: slideInLeft;
+}
+
+@-webkit-keyframes slideInLeft {
+    from {
+        -webkit-transform: translate3d(-100%, 0, 0);
+        transform: translate3d(-100%, 0, 0);
+        visibility: visible;
+    }
+    to {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+@keyframes slideInLeft {
+    from {
+        -webkit-transform: translate3d(-100%, 0, 0);
+        transform: translate3d(-100%, 0, 0);
+        visibility: visible;
+    }
+    to {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+.It-page-background {
+    background-image: linear-gradient(135deg, #FFD26F 10%, #3677FF 100%);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    overflow: auto;
+}
+
+.It-page-card {
+    background-color: rgb(202, 219, 225);
+    width: 100%;
+    max-width: 1050px;
+    border: 0px solid gray;
+    border-radius: 10px;
+    box-shadow: 10px 10px black;
+    overflow: auto;
+}
+
+.cse-page-background {
+    background-image: linear-gradient(135deg, #FFD26F 10%, #3677FF 100%);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    overflow: auto;
+}
+
+.cse-page-card {
+    background-color: rgb(202, 219, 225);
+    width: 100%;
+    max-width: 1050px;
+    border: 0px solid gray;
+    border-radius: 10px;
+    box-shadow: 10px 10px black;
+    overflow: auto;
+}
+
+.ee-page-background {
+    background-image: linear-gradient(135deg, #FFD26F 10%, #3677FF 100%);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    overflow: auto;
+}
+
+.ee-page-card {
+    background-color: rgb(202, 219, 225);
+    width: 100%;
+    max-width: 1050px;
+    border: 0px solid gray;
+    border-radius: 10px;
+    box-shadow: 10px 10px black;
+    overflow: auto;
+}
+
+.me-page-background {
+    background-image: linear-gradient(135deg, #FFD26F 10%, #3677FF 100%);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    overflow: auto;
+}
+
+.me-page-card {
+    background-color: rgb(202, 219, 225);
+    width: 100%;
+    max-width: 1050px;
+    border: 0px solid gray;
+    border-radius: 10px;
+    box-shadow: 10px 10px black;
+    overflow: auto;
+}
+
+.ba-page-background {
+    background-image: linear-gradient(135deg, #603813 10%, #b29f94 100%);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    overflow: auto;
+}
+
+.ba-page-card {
+    background-color: white;
+    width: 100%;
+    max-width: 1050px;
+    border: 0px solid gray;
+    border-radius: 10px;
+    box-shadow: 10px 10px black;
+    overflow: auto;
+}
+
+.bsc-page-background {
+    background-image: linear-gradient(135deg, #603813 10%, #b29f94 100%);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    overflow: auto;
+}
+
+.bsc-page-card {
+    background-color: white;
+    width: 100%;
+    max-width: 1050px;
+    border: 0px solid gray;
+    border-radius: 10px;
+    box-shadow: 10px 10px black;
+    overflow: auto;
+}
+
+.bcom-page-background {
+    background-image: linear-gradient(135deg, #603813 10%, #b29f94 100%);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    overflow: auto;
+}
+
+.bcom-page-card {
+    background-color: white;
+    width: 100%;
+    max-width: 1050px;
+    border: 0px solid gray;
+    border-radius: 10px;
+    box-shadow: 10px 10px black;
+    overflow: auto;
+}
+
+.bba-page-background {
+    background-image: linear-gradient(135deg, #603813 10%, #b29f94 100%);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    overflow: auto;
+}
+
+.bba-page-card {
+    background-color: white;
+    width: 100%;
+    max-width: 1050px;
+    border: 0px solid gray;
+    border-radius: 10px;
+    box-shadow: 10px 10px black;
+    overflow: auto;
+}
+
+.bio-page-background {
+    background-image: linear-gradient(135deg, #f5f7fa 10%, #c3cfe2 100%);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    overflow: auto;
+}
+
+.bio-page-card {
+    background-color: white;
+    width: 100%;
+    max-width: 1050px;
+    border: 0px solid gray;
+    border-radius: 10px;
+    box-shadow: 10px 10px black;
+    overflow: auto;
+}
+
+.for-page-background {
+    background-image: linear-gradient(135deg, #f5f7fa 10%, #c3cfe2 100%);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    overflow: auto;
+}
+
+.for-page-card {
+    background-color: white;
+    width: 100%;
+    max-width: 1050px;
+    border: 0px solid gray;
+    border-radius: 10px;
+    box-shadow: 10px 10px black;
+    overflow: auto;
+}
+
+.der-page-background {
+    background-image: linear-gradient(135deg, #f5f7fa 10%, #c3cfe2 100%);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    overflow: auto;
+}
+
+.der-page-card {
+    background-color: white;
+    width: 100%;
+    max-width: 1050px;
+    border: 0px solid gray;
+    border-radius: 10px;
+    box-shadow: 10px 10px black;
+    overflow: auto;
+}
+
+.ane-page-background {
+    background-image: linear-gradient(135deg, #f5f7fa 10%, #c3cfe2 100%);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    overflow: auto;
+}
+
+.ane-page-card {
+    background-color: white;
+    width: 100%;
+    max-width: 1050px;
+    border: 0px solid gray;
+    border-radius: 10px;
+    box-shadow: 10px 10px black;
+    overflow: auto;
+}
+
+.diploma-page-card {
+    background-color: white;
+    width: 100%;
+    max-width: 1050px;
+    border: 0px solid gray;
+    border-radius: 10px;
+    box-shadow: 10px 10px black;
+    overflow: auto;
+}
+
+.diploma-page-background {
+    background-image: linear-gradient(135deg, #1f4037 10%, #99f2c8 100%);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    overflow: auto;
+}
+
+.bhm-page-card {
+    background-color: white;
+    width: 100%;
+    max-width: 1050px;
+    border: 0px solid gray;
+    border-radius: 10px;
+    box-shadow: 10px 10px black;
+    overflow: auto;
+}
+
+.bhm-page-background {
+    background-image: linear-gradient(135deg, #1f4037 10%, #99f2c8 100%);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    overflow: auto;
+}
+
+.mhm-page-card {
+    background-color: white;
+    width: 100%;
+    max-width: 1050px;
+    border: 0px solid gray;
+    border-radius: 10px;
+    box-shadow: 10px 10px black;
+    overflow: auto;
+}
+
+.mhm-page-background {
+    background-image: linear-gradient(135deg, #1f4037 10%, #99f2c8 100%);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    overflow: auto;
+}
+
+.bey-page-card {
+    background-color: white;
+    width: 100%;
+    max-width: 1050px;
+    border: 0px solid gray;
+    border-radius: 10px;
+    box-shadow: 10px 10px black;
+    overflow: auto;
+}
+
+.bey-page-background {
+    background-image: linear-gradient(135deg, #1f4037 10%, #99f2c8 100%);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    overflow: auto;
 }
