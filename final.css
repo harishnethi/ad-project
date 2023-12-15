@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+ @import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
 * {
     margin: 0px;
     box-sizing: border-box;
@@ -172,6 +172,7 @@
     padding: 10px;
     text-decoration: underline;
     font-family: 'Roboto';
+    color: white;
 }
 
 .third-page-para-course {
@@ -420,7 +421,7 @@ nav li a:hover {
 }
 
 .mpc-page-background {
-    background-image: linear-gradient(135deg, #b92b27 10%, #1565C0 100%);
+    background-image: url("https://jrmccarthylawcom.files.wordpress.com/2022/11/pexels-photo-6256066.jpeg");
     background-size: cover;
     height: 100vh;
     padding: auto;
@@ -467,7 +468,7 @@ nav li a:hover {
 }
 
 .bipc-page-background {
-    background-image: linear-gradient(135deg, #b92b27 10%, #1565C0 100%);
+    background-image: url("https://img.freepik.com/free-vector/hand-drawn-scientific-formulas-chalkboard_23-2148495052.jpg?size=626&ext=jpg&ga=GA1.1.726665775.1700916852&semt=ais");
     background-size: cover;
     height: 100vh;
     padding: auto;
@@ -514,7 +515,7 @@ nav li a:hover {
 }
 
 .hec-page-background {
-    background-image: linear-gradient(135deg, #b92b27 10%, #1565C0 100%);
+    background-image: url("https://img.freepik.com/free-vector/rupee-technology-background-with-light-effect_1017-36520.jpg?w=740&t=st=1702657553~exp=1702658153~hmac=e33e506536e5ad31965afdf68b35b5e60a4ba77b64b31c52ccab3b7c854aaca7");
     background-size: cover;
     height: 100vh;
     padding: auto;
@@ -561,7 +562,7 @@ nav li a:hover {
 }
 
 .cec-page-background {
-    background-image: linear-gradient(135deg, #b92b27 10%, #1565C0 100%);
+    background-image: url("https://img.freepik.com/free-vector/digital-rupee-technology-background-design_1017-36659.jpg?size=626&ext=jpg&ga=GA1.2.726665775.1700916852&semt=sph");
     background-size: cover;
     height: 100vh;
     padding: auto;
@@ -609,6 +610,24 @@ nav li a:hover {
 
 .size-degree {
     font-size: 10px;
+}
+
+.cec-page-background {
+    background-image: url("https://img.freepik.com/free-vector/digital-rupee-technology-background-design_1017-36659.jpg?size=626&ext=jpg&ga=GA1.2.726665775.1700916852&semt=sph");
+    background-size: cover;
+    height: 100vh;
+    padding: auto;
+    width: 100vw;
+    overflow: auto;
+}
+
+.it-page-background {
+    background-image: url("https://img.freepik.com/free-photo/person-working-html-computer_23-2150038860.jpg?size=626&ext=jpg&ga=GA1.1.726665775.1700916852&semt=ais");
+    background-size: cover;
+    height: 100vh;
+    padding: auto;
+    width: 100vw;
+    overflow: auto;
 }
 
 .nav-button {
@@ -707,7 +726,7 @@ nav li a:hover {
 }
 
 .cse-page-background {
-    background-image: linear-gradient(135deg, #FFD26F 10%, #3677FF 100%);
+    background-image: url("https://img.freepik.com/free-vector/gradient-top-view-laptop-background_52683-6291.jpg?size=626&ext=jpg&ga=GA1.1.726665775.1700916852&semt=ais");
     background-size: cover;
     height: 100vh;
     width: 100vw;
@@ -725,7 +744,7 @@ nav li a:hover {
 }
 
 .ee-page-background {
-    background-image: linear-gradient(135deg, #FFD26F 10%, #3677FF 100%);
+    background-image: url("https://img.freepik.com/free-photo/sun-setting-silhouette-electricity-pylons_1127-3239.jpg?size=626&ext=jpg&ga=GA1.1.726665775.1700916852&semt=ais");
     background-size: cover;
     height: 100vh;
     width: 100vw;
@@ -743,7 +762,7 @@ nav li a:hover {
 }
 
 .me-page-background {
-    background-image: linear-gradient(135deg, #FFD26F 10%, #3677FF 100%);
+    background-image: url("https://img.freepik.com/free-photo/engineer-cooperation-male-female-technician-maintenance-control-relay-robot-arm-system-welding-with-tablet-laptop-control-quality-operate-process-work-heavy-industry-40-manufacturing-factory_609648-792.jpg?size=626&ext=jpg&ga=GA1.1.726665775.1700916852&semt=ais");
     background-size: cover;
     height: 100vh;
     width: 100vw;
@@ -761,7 +780,7 @@ nav li a:hover {
 }
 
 .ba-page-background {
-    background-image: linear-gradient(135deg, #603813 10%, #b29f94 100%);
+    background-image: url("https://img.freepik.com/free-photo/medium-shot-man-portrait-with-graduation-cap_23-2150293689.jpg?size=626&ext=jpg&ga=GA1.1.726665775.1700916852&semt=ais");
     background-size: cover;
     height: 100vh;
     width: 100vw;
@@ -779,7 +798,7 @@ nav li a:hover {
 }
 
 .bsc-page-background {
-    background-image: linear-gradient(135deg, #603813 10%, #b29f94 100%);
+    background-image: url("https://img.freepik.com/free-photo/boy-doing-experiments-laboratory_23-2148891883.jpg?size=626&ext=jpg&ga=GA1.1.726665775.1700916852&semt=ais");
     background-size: cover;
     height: 100vh;
     width: 100vw;
@@ -797,7 +816,7 @@ nav li a:hover {
 }
 
 .bcom-page-background {
-    background-image: linear-gradient(135deg, #603813 10%, #b29f94 100%);
+    background-image: url("https://img.freepik.com/free-photo/financial-managers-work_1098-16095.jpg?size=626&ext=jpg&ga=GA1.1.726665775.1700916852&semt=ais");
     background-size: cover;
     height: 100vh;
     width: 100vw;
@@ -815,7 +834,7 @@ nav li a:hover {
 }
 
 .bba-page-background {
-    background-image: linear-gradient(135deg, #603813 10%, #b29f94 100%);
+    background-image: url("https://img.freepik.com/premium-photo/office-business-woman-business-man-leading-talks_118454-2354.jpg?size=626&ext=jpg&ga=GA1.1.726665775.1700916852&semt=ais");
     background-size: cover;
     height: 100vh;
     width: 100vw;
@@ -833,7 +852,7 @@ nav li a:hover {
 }
 
 .bio-page-background {
-    background-image: linear-gradient(135deg, #f5f7fa 10%, #c3cfe2 100%);
+    background-image: url("https://img.freepik.com/premium-photo/scientists-are-inventing-chemicals-medical-use_33755-7951.jpg?size=626&ext=jpg&ga=GA1.1.726665775.1700916852&semt=ais");
     background-size: cover;
     height: 100vh;
     width: 100vw;
@@ -851,7 +870,7 @@ nav li a:hover {
 }
 
 .for-page-background {
-    background-image: linear-gradient(135deg, #f5f7fa 10%, #c3cfe2 100%);
+    background-image: url("https://img.freepik.com/free-photo/man-working-darkroom-top-view_23-2149893942.jpg?size=626&ext=jpg&ga=GA1.1.726665775.1700916852&semt=ais");
     background-size: cover;
     height: 100vh;
     width: 100vw;
@@ -869,7 +888,7 @@ nav li a:hover {
 }
 
 .der-page-background {
-    background-image: linear-gradient(135deg, #f5f7fa 10%, #c3cfe2 100%);
+    background-image: url("https://img.freepik.com/free-photo/client-beautician-s-appointment-consultation-face-shaping-preparation-upcoming-procedures-visual-examination-problem-areas_343596-4178.jpg?size=626&ext=jpg&ga=GA1.1.726665775.1700916852&semt=ais");
     background-size: cover;
     height: 100vh;
     width: 100vw;
@@ -887,7 +906,7 @@ nav li a:hover {
 }
 
 .ane-page-background {
-    background-image: linear-gradient(135deg, #f5f7fa 10%, #c3cfe2 100%);
+    background-image: url("https://img.freepik.com/free-photo/surgical-team-performing-surgery-modern-operation-theaterteam-doctors-concentrating-patient-during-surgeryteam-doctors-working-together-during-surgery-operating-room_657921-785.jpg?size=626&ext=jpg&ga=GA1.1.726665775.1700916852&semt=sph");
     background-size: cover;
     height: 100vh;
     width: 100vw;
@@ -915,7 +934,7 @@ nav li a:hover {
 }
 
 .diploma-page-background {
-    background-image: linear-gradient(135deg, #1f4037 10%, #99f2c8 100%);
+    background-image: url("https://img.freepik.com/premium-photo/generative-ai-group-graduates-hurling-graduation-caps-air_28914-11144.jpg?size=626&ext=jpg&ga=GA1.1.726665775.1700916852&semt=sph");
     background-size: cover;
     height: 100vh;
     width: 100vw;
@@ -933,7 +952,7 @@ nav li a:hover {
 }
 
 .bhm-page-background {
-    background-image: linear-gradient(135deg, #1f4037 10%, #99f2c8 100%);
+    background-image: url("https://img.freepik.com/free-photo/partners-sitting-table-working-cafe_1157-28478.jpg?size=626&ext=jpg&ga=GA1.1.726665775.1700916852&semt=ais");
     background-size: cover;
     height: 100vh;
     width: 100vw;
@@ -951,7 +970,7 @@ nav li a:hover {
 }
 
 .mhm-page-background {
-    background-image: linear-gradient(135deg, #1f4037 10%, #99f2c8 100%);
+    background-image: url("https://img.freepik.com/premium-photo/briefing-staff-hotel-restaurant_110955-661.jpg?size=626&ext=jpg&ga=GA1.1.726665775.1700916852&semt=ais");
     background-size: cover;
     height: 100vh;
     width: 100vw;
@@ -969,7 +988,7 @@ nav li a:hover {
 }
 
 .bey-page-background {
-    background-image: linear-gradient(135deg, #1f4037 10%, #99f2c8 100%);
+    background-image: url("https://img.freepik.com/free-photo/scientific-doing-chemical-experiment_144627-9037.jpg?size=626&ext=jpg&ga=GA1.1.726665775.1700916852&semt=ais");
     background-size: cover;
     height: 100vh;
     width: 100vw;
